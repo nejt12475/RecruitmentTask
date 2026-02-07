@@ -48,7 +48,7 @@ const App = () => {
             filters.sort();
         }
 
-    }, [filterSort]);
+    }, [filterSort,filterEnergy, filterFunc, filterVolume]);
 
 function Search(e: React.ChangeEvent<HTMLInputElement>) {
      const searchbar= (e.currentTarget.value.toString());
