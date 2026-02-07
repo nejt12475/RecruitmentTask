@@ -1,0 +1,38 @@
+*{
+    font-family: 'Samsung';
+
+}
+select{
+    width: 100%;
+    height: 11%;
+    padding: 10px;
+    outline: none;
+    background: #fff;
+    border: none;
+    appearance: none;
+}
+
+option{
+    font-weight: 400;
+}
+h3{
+    margin: 2%;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 0%;
+    font-size: 18px;
+
+}
+
+div.filter{
+    margin: auto;
+    width: 100%;
+}
+option:checked{
+    background-color: white !important;
+}
+@font-face {
+    font-family: Samsung;
+    src: url("../Styles/SamsungOne.woff");
+    font-weight: bold;
+}
